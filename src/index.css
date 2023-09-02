@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: #fff;
+  background-color: #000000;
+}
+
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 4px;
+  transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(to right,
+      #FCEE21 20%,
+      #FCEE21 80%);
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.text-gradient-animation {
+  /* font-size: clamp(2.8rem, 1.5vw, 3rem); */
+  /* font-weight: bold; */
+  background: linear-gradient(to right,
+      #FCEE21 20%,
+      #15c266 30%,
+      #15c266 70%,
+      #FCEE21 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-fill-color: transparent; */
+  background-size: 500% auto;
+  animation: textShine 4s ease-in-out infinite alternate;
+}
+
+::selection {
+  color: #BC6FF1;
+  background: #fff;
+}
