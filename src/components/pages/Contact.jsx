@@ -1,8 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
   const form = useRef();
+  const [isSubmit, setSubmit] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,7 +18,9 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log(e);
+          setSubmit(true);
+
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -91,9 +94,10 @@ export const Contact = () => {
                 </div>
                 <div className="w-full p-2">
                   <button
+                    disabled={isSubmit}
                     type="submit"
                     value="Send"
-                    className="mx-auto flex rounded border-0 bg-indigo-600 px-8 py-2 text-lg text-black hover:bg-indigo-500 focus:outline-none"
+                    className="mx-auto flex rounded border-0 bg-indigo-600 px-8 py-2 text-lg text-black hover:bg-indigo-500 focus:outline-none disabled:bg-gray-700 "
                   >
                     Submit
                   </button>
