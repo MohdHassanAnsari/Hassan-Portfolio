@@ -18,7 +18,7 @@ export function Navbar() {
       <div className="items-center justify-around  px-7 md:flex md:px-10">
         <div
           className="relative bottom-2 flex cursor-pointer 
-      text-white"
+      "
         >
           <NavSvg />
         </div>
@@ -39,7 +39,7 @@ export function Navbar() {
             <li key={index} className="my-7 text-xl md:my-0 md:ml-8">
               <a
                 href={navItem.link}
-                className="link-underline-black link-underline flex-auto text-white  duration-500 hover:text-white"
+                className="link-underline-black link-underline hover:   flex-auto duration-500"
               >
                 {navItem.text}
               </a>

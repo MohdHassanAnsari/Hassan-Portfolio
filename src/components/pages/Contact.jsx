@@ -30,10 +30,10 @@ export const Contact = () => {
 
   return (
     <>
-      <section className="body-font text-white">
+      <section className="body-font ">
         <div className="container mx-auto px-5 py-24">
           <div className="mb-12 flex w-full flex-col text-center">
-            <h1 className="title-font mb-1 text-2xl font-medium text-white sm:text-3xl">
+            <h1 className="title-font mb-1 text-2xl font-medium  sm:text-3xl">
               Contact Me
             </h1>
             <hr className="mx-auto my-1 h-1 w-48 rounded border-0 bg-white dark:bg-green-700 md:my-3" />
@@ -47,10 +47,7 @@ export const Contact = () => {
               <div className="-m-2 flex flex-wrap">
                 <div className="w-1/2 p-2">
                   <div className="relative">
-                    <label
-                      htmlFor="name"
-                      className="text-sm leading-7 text-white"
-                    >
+                    <label htmlFor="name" className="text-sm leading-7 ">
                       Name
                     </label>
                     <input
@@ -63,10 +60,7 @@ export const Contact = () => {
                 </div>
                 <div className="w-1/2 p-2">
                   <div className="relative">
-                    <label
-                      htmlFor="email"
-                      className="text-sm leading-7 text-white"
-                    >
+                    <label htmlFor="email" className="text-sm leading-7 ">
                       Email
                     </label>
                     <input
@@ -79,10 +73,7 @@ export const Contact = () => {
                 </div>
                 <div className="w-full p-2">
                   <div className="relative">
-                    <label
-                      htmlFor="message"
-                      className="text-sm leading-7 text-white"
-                    >
+                    <label htmlFor="message" className="text-sm leading-7 ">
                       Message
                     </label>
                     <textarea
@@ -107,7 +98,7 @@ export const Contact = () => {
             <div className="mt-8 w-full border-t border-white p-2 pt-8 text-center">
               <a
                 href="mailto:ah1769413@gmail.com"
-                className="text-white underline decoration-red-700 underline-offset-4"
+                className=" underline decoration-red-700 underline-offset-4"
               >
                 ah1769413@gmail.com
               </a>

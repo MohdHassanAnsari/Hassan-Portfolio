@@ -8,7 +8,7 @@ import { TechStack } from "./components/pages/TechStack";
 function App() {
   return (
     <>
-      <div className="font-Comfortaa">
+      <div className="scroll-smooth font-Comfortaa  md:scroll-auto">
         <Navbar />
         <Header />
         <TechStack />

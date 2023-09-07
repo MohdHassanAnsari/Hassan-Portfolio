@@ -3,13 +3,13 @@ import React from "react";
 export const Projects = () => {
   return (
     <>
-      <section className="body-font mx-8 text-white">
-        <div className="font-Cinzel mb-8 text-4xl underline decoration-green-500 underline-offset-8 ">
+      <section className="body-font mx-8 ">
+        <div className="mb-8 font-Cinzel text-4xl underline decoration-green-500 underline-offset-8 ">
           Projects
         </div>
         <div className="container mx-auto flex flex-wrap items-center">
           <div className="mb-10 border-b border-gray-200 pb-10 md:mb-0 md:w-1/2 md:border-b-0 md:border-r md:py-8 md:pr-12">
-            <h1 className="title-font mb-2 text-2xl font-medium text-white sm:text-3xl">
+            <h1 className="title-font mb-2 text-2xl font-medium  sm:text-3xl">
               1#{" "}
               <span className=" font-SyneMono text-4xl underline decoration-red-600 underline-offset-4">
                 SocioCouch
@@ -72,51 +72,49 @@ export const Projects = () => {
             </div>
           </div>
           <div className="flex flex-col md:w-1/2 md:pl-12">
-            <h2 className="title-font mb-3 text-lg font-semibold tracking-wider text-white">
+            <h2 className="title-font mb-3 text-lg font-semibold tracking-wider ">
               Tech Used ⚙
             </h2>
             <nav className="-mb-1 flex list-none flex-wrap">
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">Django & DRF</a>
+                <a className=" hover:">Django & DRF</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">ReactJs</a>
+                <a className=" hover:">ReactJs</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">
-                  PostgreSQL & Redis
-                </a>
+                <a className=" hover:">PostgreSQL & Redis</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">WebSockets </a>
+                <a className=" hover:">WebSockets </a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">GitLab</a>
+                <a className=" hover:">GitLab</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">Docker</a>
+                <a className=" hover:">Docker</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">Nginx</a>
+                <a className=" hover:">Nginx</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">FFmpeg</a>
+                <a className=" hover:">FFmpeg</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">Kafka | More</a>
+                <a className=" hover:">Kafka | More</a>
               </li>
             </nav>
           </div>
         </div>
         <div className="my-4 inline-flex w-full items-center justify-center">
           <hr className="my-8 h-px w-64 border-0 bg-gray-200 dark:bg-gray-700" />
-          <span className="absolute left-1/2 -translate-x-1/2 bg-white px-3 font-medium text-gray-900 dark:bg-gray-900 dark:text-white">
+          <span className="dark: absolute left-1/2 -translate-x-1/2 bg-white px-3 font-medium text-gray-900 dark:bg-gray-900">
             🔮
           </span>
         </div>
         <div className="container mx-auto flex flex-wrap items-center">
           <div className="mb-10 border-b border-gray-200 pb-10 md:mb-0 md:w-1/2 md:border-b-0 md:border-r md:py-8 md:pr-12">
-            <h1 className="title-font mb-2 text-2xl font-medium text-white sm:text-3xl">
+            <h1 className="title-font mb-2 text-2xl font-medium  sm:text-3xl">
               2#{" "}
               <span className=" font-SyneMono text-4xl underline decoration-red-600 underline-offset-4">
                 Vendora
@@ -168,38 +166,36 @@ export const Projects = () => {
             </a>
           </div>
           <div className="flex flex-col md:w-1/2 md:pl-12">
-            <h2 className="title-font mb-3 text-lg font-semibold tracking-wider text-white">
+            <h2 className="title-font mb-3 text-lg font-semibold tracking-wider ">
               Tech Used ⚙
             </h2>
             <nav className="-mb-1 flex list-none flex-wrap">
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">DRF & ExpressJs</a>
+                <a className=" hover:">DRF & ExpressJs</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">ReactJs</a>
+                <a className=" hover:">ReactJs</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">
-                  PostgreSQL & MongoDB
-                </a>
+                <a className=" hover:">PostgreSQL & MongoDB</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">Docker & AWS </a>
+                <a className=" hover:">Docker & AWS </a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">GitHub</a>
+                <a className=" hover:">GitHub</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">JWT & OAuth</a>
+                <a className=" hover:">JWT & OAuth</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">Nginx</a>
+                <a className=" hover:">Nginx</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">Tailwind CSS</a>
+                <a className=" hover:">Tailwind CSS</a>
               </li>
               <li className="mb-1 w-1/2 lg:w-1/3">
-                <a className="text-white hover:text-white">Redis | More</a>
+                <a className=" hover:">Redis | More</a>
               </li>
             </nav>
           </div>
