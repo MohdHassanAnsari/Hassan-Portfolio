@@ -44,10 +44,10 @@ body {
   /* font-size: clamp(2.8rem, 1.5vw, 3rem); */
   /* font-weight: bold; */
   background: linear-gradient(to right,
-      #FCEE21 20%,
-      #15c266 30%,
-      #15c266 70%,
-      #FCEE21 80%);
+      #f79000 20%,
+      #d5d513 70%,
+      #d5d513 70%,
+      #f79000 80%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

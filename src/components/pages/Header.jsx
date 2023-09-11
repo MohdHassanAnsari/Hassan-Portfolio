@@ -14,7 +14,7 @@ export const Header = () => {
             />
           </div>
           <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
-            <h1 className="title-font text-gradient-animation mb-1 text-3xl font-medium  sm:text-5xl">
+            <h1 className="title-font text-gradient-animation mb-1 font-Comfortaa text-5xl font-medium  sm:text-5xl">
               Full-Stack Developer.
             </h1>
             <p className="leading-relaxed text-gray-200 underline decoration-green-500 underline-offset-4 ">

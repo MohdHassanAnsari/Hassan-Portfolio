@@ -3,7 +3,7 @@ import React from "react";
 export const Projects = () => {
   return (
     <>
-      <section className="body-font mx-8 ">
+      <section className="body-font mx-6 lg:ml-20">
         <div className="mb-8 font-Cinzel text-4xl underline decoration-green-500 underline-offset-8 ">
           Projects
         </div>
